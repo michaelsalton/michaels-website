@@ -14,9 +14,11 @@ export default function Home() {
       </div>
       <Image
         src={logo}
-        width={100}
-        height={100}
+        width={65}
+        height={65}
         alt="Logo"
+        objectFit="contain"
+        className="absolute top-7 left-5"
       />
       <div className="white-section h-screen">
         {/* Content for the white section */}

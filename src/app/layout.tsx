@@ -1,11 +1,13 @@
 import './globals.css';
 import type { Metadata } from 'next'
 import { Header } from './header';
+import Navbar from './components/Navbar'
 import Head from 'next/head';
 import {Poppins} from 'next/font/google'
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "300", "500", "700", "900"]
+  
 });
 
 export const metadata: Metadata = {

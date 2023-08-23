@@ -1,19 +1,34 @@
 import React from 'react';
+import Image from 'next/image'
+import logo from './logo_white.png'
+
 
 export default function Home() {
   return (
     <div className="overflow-hidden">
-      <div className="black-section h-screen">
-        {/* Content for the black section */}
+      {/* Navigation Bar */}
+      <div className="navbar">
+        <a href="#" className="text-black">ABOUT</a>
+        <a href="#" className="text-black">RESUME</a>
+        <a href="#" className="text-black">CONTACT</a>
       </div>
-      <div className="white-section h-screen overflow-y-scroll">
+      <Image
+        src={logo}
+        width={100}
+        height={100}
+        alt="Logo"
+      />
+      <div className="white-section h-screen">
         {/* Content for the white section */}
       </div>
       <div className="black-section h-screen">
         {/* Content for the black section */}
       </div>
-      <div className="white-section h-screen overflow-y-scroll">
+      <div className="white-section h-screen">
         {/* Content for the white section */}
+      </div>
+      <div className="black-section h-screen">
+        {/* Content for the black section */}
       </div>
     </div>
   );

@@ -8,18 +8,30 @@ export default function Home() {
   return (
     <div className="overflow-hidden">
       <Navbar/>
-      <div className={styles.whitesection}>
+      <div className={styles.home}>
         {/* Content for the white section */}
       </div>
-      <div className={styles.blacksection}>
-        {/* Content for the black section */}
+      <div id="about">
+        <div className={styles.about}>
+          {/* Content for the white section */}
+        </div>
       </div>
-      <div className={styles.whitesection}>
-        {/* Content for the white section */}
+      <div id="projects">
+        <div className={styles.projects}>
+          {/* Content for the black section */}
+        </div>
       </div>
-      <div className={styles.blacksection}>
-        {/* Content for the black section */}
+      <div id="resume">
+        <div className={styles.resume}>
+          {/* Content for the white section */}
+        </div>
       </div>
+      <div id="contact">
+        <div className={styles.contact}>
+          {/* Content for the black section */}
+        </div>
+      </div>
+
     </div>
   );
 }

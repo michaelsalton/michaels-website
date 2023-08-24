@@ -1,11 +1,26 @@
 /* home.module.css */
 
-.blacksection {
-    background-color: #1f1f1f;
-    height: 100vh;
-  }
+.home {
+  background-color: rgb(227, 228, 220);
+  height: 100vh;
+}
+
+.about {
+  background-color: #1f1f1f;
+  height: 100vh;
+}
   
-  .whitesection {
-    background-color: rgb(227, 228, 220);
-    height: 100vh;
-  }
+.projects {
+  background-color: rgb(227, 228, 220);
+  height: 100vh;
+}
+
+.resume {
+  background-color: #1f1f1f;
+  height: 100vh;
+}
+
+.contact {
+  background-color: rgb(227, 228, 220);
+  height: 100vh;
+}

@@ -8,14 +8,6 @@ export default function Home() {
   return (
     <div className="overflow-hidden">
       <Navbar/>
-      <Image
-        src={logo}
-        width={65}
-        height={65}
-        alt="Logo"
-        objectFit="contain"
-        className="absolute top-7 left-5"
-      />
       <div className={styles.whitesection}>
         {/* Content for the white section */}
       </div>

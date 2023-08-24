@@ -6,8 +6,7 @@
     align-items: center;
     padding-top: 45px;
     list-style-type: none;
-    margin: 0;
-    background-color: rgb(227, 228, 220);
+    background-color: transparent;
 }
 
 .navItem {
@@ -21,4 +20,22 @@
 
 .navItem a:hover {
     color: white;
+}
+
+.stickynavbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 20px;
 }

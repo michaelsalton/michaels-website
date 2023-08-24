@@ -1,7 +1,5 @@
-import './globals.css';
+import './/globals/globals.css';
 import type { Metadata } from 'next'
-import { Header } from './header';
-import Navbar from './components/Navbar'
 import Head from 'next/head';
 import {Poppins} from 'next/font/google'
 const poppins = Poppins({
@@ -23,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href=".//images/favicon.ico" sizes="any" />
       </Head>
       <body className={poppins.className}>
         {children}

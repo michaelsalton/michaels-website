@@ -1,7 +1,8 @@
 import React from 'react';
 import Image from 'next/image'
-import logo from './logo_white.png'
-import Navbar from './components/Navbar'
+import logo from './/images/logo_white.png'
+import Navbar from './navbar/Navbar'
+import styles from './/home/home.module.css';
 
 export default function Home() {
   return (
@@ -15,16 +16,16 @@ export default function Home() {
         objectFit="contain"
         className="absolute top-7 left-5"
       />
-      <div className="white-section h-screen">
+      <div className={styles.whitesection}>
         {/* Content for the white section */}
       </div>
-      <div className="black-section h-screen">
+      <div className={styles.blacksection}>
         {/* Content for the black section */}
       </div>
-      <div className="white-section h-screen">
+      <div className={styles.whitesection}>
         {/* Content for the white section */}
       </div>
-      <div className="black-section h-screen">
+      <div className={styles.blacksection}>
         {/* Content for the black section */}
       </div>
     </div>

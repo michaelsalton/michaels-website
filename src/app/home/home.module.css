@@ -1,0 +1,11 @@
+/* home.module.css */
+
+.blacksection {
+    background-color: #1f1f1f;
+    height: 100vh;
+  }
+  
+  .whitesection {
+    background-color: rgb(227, 228, 220);
+    height: 100vh;
+  }

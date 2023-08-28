@@ -1,0 +1,43 @@
+.home {
+    background-color: rgb(227, 228, 220);
+    height: 100vh;
+  }
+  
+  .about {
+    background-color: #1f1f1f;
+    height: 100vh;
+  }
+    
+  .projects {
+    background-color: rgb(227, 228, 220);
+    height: 100vh;
+  }
+  
+  .resume {
+    background-color: #1f1f1f;
+    height: 100vh;
+  }
+  
+  .contact {
+    background-color: rgb(227, 228, 220);
+    height: 100vh;
+  }
+  
+  .scroll-down-button {
+    position: absolute;
+    color: black;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .scroll-down-button a {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .scroll-down-button img {
+    width: 100%;
+    height: 100%;
+  }

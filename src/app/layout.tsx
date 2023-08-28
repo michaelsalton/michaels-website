@@ -1,6 +1,7 @@
 import './/globals/globals.css';
 import type { Metadata } from 'next'
 import Head from 'next/head';
+import Navbar from './navbar/Navbar'
 import {Poppins} from 'next/font/google'
 import Link from 'next/link';
 
@@ -25,6 +26,7 @@ export default function RootLayout({
       <Head>
         <link rel="icon" href=".//images/favicon.ico" sizes="any" />
       </Head>
+      <Navbar/>
       <body className={poppins.className}>
         {children}
         <div style={{

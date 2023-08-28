@@ -26,7 +26,10 @@ export default function Home() {
               justifyContent: 'center',
             }}>
               <Link href="#about">
-                <h5 style={{ color: 'white' }}>Read more</h5>
+                <h5 style={{ 
+                  color: 'white',
+                  paddingBottom: '45%'
+                  }}>see more</h5>
               </Link>
             </div>
           }

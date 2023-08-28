@@ -2,6 +2,8 @@ import './/globals/globals.css';
 import type { Metadata } from 'next'
 import Head from 'next/head';
 import {Poppins} from 'next/font/google'
+import Link from 'next/link';
+
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "300", "500", "700", "900"]
@@ -25,6 +27,23 @@ export default function RootLayout({
       </Head>
       <body className={poppins.className}>
         {children}
+        <div style={{
+              position: 'fixed',
+              left: '50%',
+              bottom: '0',
+              transform: 'translateX(-50%)',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}>
+              <Link href="#about">
+                <h5 style={{ 
+                  color: 'white',
+                  paddingBottom: '45%'
+                  }}>see more</h5>
+              </Link>
+            </div>
       </body>
     </html>
   );

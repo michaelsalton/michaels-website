@@ -1,45 +1,29 @@
 /* home.module.css */
 
-.home {
-  background-color: rgb(227, 228, 220);
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   height: 100vh;
+  padding: 0 50px;
+  box-sizing: border-box;
 }
 
-.about {
-  background-color: #1f1f1f;
-  height: 100vh;
-}
-  
-.projects {
-  background-color: rgb(227, 228, 220);
-  height: 100vh;
+.textContainer {
+  text-align: right;
 }
 
-.resume {
-  background-color: #1f1f1f;
-  height: 100vh;
+.mainText {
+  font-size: 2em;
+  margin: 0;
+  padding-right: 20px;
 }
 
-.contact {
-  background-color: rgb(227, 228, 220);
-  height: 100vh;
+.subText {
+  font-size: 1em;
+  margin: 10px 0;
 }
 
-.scroll-down-button {
-  position: absolute;
-  color: black;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.scroll-down-button a {
-  display: block;
-  width: 40px;
-  height: 40px;
-}
-
-.scroll-down-button img {
-  width: 100%;
-  height: 100%;
+.imageContainer {
+  margin-top: 20px;
 }

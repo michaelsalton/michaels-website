@@ -9,7 +9,7 @@ function Navbar() {
     return (
         <nav className={styles.stickynavbar}>
             <div className={styles.logo}>
-                <Link href="#home">
+                <Link href="/home">
                     <Image
                         src={logo}
                         width={65}
@@ -21,16 +21,18 @@ function Navbar() {
             </div>
             <ul className={styles.navbar}>
                 <li className={styles.navItem}>
-                    <Link href="#about">about</Link>
+                    <Link href="../home_page_sections/about/About">
+                        about
+                    </Link>
                 </li>
                 <li className={styles.navItem}>
-                    <Link href="#projects">projects</Link>
+                    <Link href="/projects">projects</Link>
                 </li>
                 <li className={styles.navItem}>
-                    <Link href="#resume">resume</Link>
+                    <Link href="/resume">resume</Link>
                 </li>
                 <li className={styles.navItem}>
-                    <Link href="#contact">contact</Link>
+                    <Link href="/contact">contact</Link>
                 </li>
             </ul>
         </nav>

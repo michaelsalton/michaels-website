@@ -1,0 +1,32 @@
+/* resume.module.css */
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    padding: 0 50px;
+    box-sizing: border-box;
+    color: white;
+  }
+  
+  .textContainer {
+    text-align: right;
+  }
+  
+  .mainText {
+    font-size: 2em;
+    margin: 0;
+    padding-right: 20px;
+    color: white;
+  }
+  
+  .subText {
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  
+  .imageContainer {
+    margin-top: 20px;
+  }
+  

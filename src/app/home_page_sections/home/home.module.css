@@ -5,23 +5,23 @@
   justify-content: flex-end;
   align-items: center;
   height: 100vh;
-  padding: 0 50px;
+  width: 80%;
+  padding: 0 5%;
   box-sizing: border-box;
+  /*background-color: aqua;*/
 }
 
 .textContainer {
   text-align: right;
+  /*background-color: red;*/
 }
 
 .mainText {
   font-size: 2em;
-  margin: 0;
-  padding-right: 20px;
 }
 
 .subText {
   font-size: 1em;
-  margin: 10px 0;
 }
 
 .imageContainer {

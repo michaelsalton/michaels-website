@@ -3,13 +3,12 @@ import Link from 'next/link';
 import logo from './/images/logo_white.png'
 import Navbar from './navbar/Navbar'
 import styles from './/page.module.css'
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Home from './home_page_sections/home/Home';
 import About from './home_page_sections/about/About';
 import Projects from './home_page_sections/projects/Projects';
 import Resume from './home_page_sections/resume/Resume';
 import Contact from './home_page_sections/contact/Contact';
-
 
 export default function Page() {
   return (

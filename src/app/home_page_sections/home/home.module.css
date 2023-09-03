@@ -22,8 +22,12 @@
 
 .subText {
   font-size: 1em;
+  margin-top: 10px;
 }
 
 .imageContainer {
-  margin-top: 20px;
+  align-items: end;
+  margin-top: 25px;
+  display: flex;
+  justify-content: flex-end;
 }
